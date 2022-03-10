@@ -1,20 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { FC } from 'react';
+import { TailwindProvider } from 'tailwind-rn';
+import utilities from './tailwind.json';
+import Demo from './src/Demo';
 
-export default function App() {
+const App:FC = () => {
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <TailwindProvider utilities={utilities}>
+      <Demo />
+    </TailwindProvider>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

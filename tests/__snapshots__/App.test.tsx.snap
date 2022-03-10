@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`describing App.tsx component render App.tsx test component 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "height": "100%",
+      "paddingTop": 24,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingTop": 48,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(191, 219, 254, 1)",
+            "borderBottomLeftRadius": 9999,
+            "borderBottomRightRadius": 9999,
+            "borderTopLeftRadius": 9999,
+            "borderTopRightRadius": 9999,
+            "paddingBottom": 4,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "paddingTop": 4,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgba(30, 64, 175, 1)",
+              "fontWeight": "600",
+            }
+          }
+        >
+          Hello Demo World! This is sample text.
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

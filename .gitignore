@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 .expo/
 dist/
 npm-debug.*
@@ -9,6 +9,9 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+
+# Visual Studio Code folder
+.vscode
 
 # macOS
 .DS_Store

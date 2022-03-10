@@ -1,3 +1,4 @@
+![Vehiclegenics React Native App Icon](https://github.com/Wesley26/Vehiclegenics/blob/main/assets/icon.png)
 # Vehiclegenics React Native App
 
 This TypeScript React Native App uses the following dependencies: [React Native Docs](https://reactnative.dev/), [Expo](https://docs.expo.dev/index.html), [tailwindcss](https://tailwindcss.com/), and [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn#readme).

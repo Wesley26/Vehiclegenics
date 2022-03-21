@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`describing Home.tsx component render Home.tsx test component 1`] = `
+<ViewManagerAdapter_ExpoLinearGradient
+  proxiedProperties={
+    Object {
+      "colors": Array [
+        4288520633,
+        4284835702,
+        4282598478,
+      ],
+      "endPoint": undefined,
+      "locations": undefined,
+      "startPoint": undefined,
+    }
+  }
+  style={Object {}}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#656776",
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "color": "#43444e",
+          },
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans_700Bold",
+            },
+            Object {
+              "textShadowOffset": Object {
+                "height": 2,
+                "width": -2,
+              },
+              "textShadowRadius": 1,
+            },
+            Object {},
+          ]
+        }
+      >
+        Vehiclegenics
+      </Text>
+    </View>
+  </View>
+</ViewManagerAdapter_ExpoLinearGradient>
+`;

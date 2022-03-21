@@ -1,7 +1,7 @@
 ![Vehiclegenics React Native App Icon](https://github.com/Wesley26/Vehiclegenics/blob/main/assets/icon.png)
 # Vehiclegenics React Native App
 
-This TypeScript React Native App uses the following dependencies: [React Native Docs](https://reactnative.dev/), [Expo](https://docs.expo.dev/index.html), [tailwindcss](https://tailwindcss.com/), and [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn#readme).
+This TypeScript React Native App uses the following dependencies: [React Native Docs](https://reactnative.dev/), [Expo](https://docs.expo.dev/index.html), [Expo Google Fonts](https://github.com/expo/google-fonts), [tailwindcss](https://tailwindcss.com/), and [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn#readme).
 
 Unit testing with Jest: [Jest and Jest-expo](https://docs.expo.dev/guides/testing-with-jest/), [react-test-renderer + types](https://jestjs.io/docs/snapshot-testing),  and [jest-transform-stub](https://github.com/eddyerburgh/jest-transform-stub). Note: Inside "Jest" under package.json, ensure moduleNameMapper includes every image extension used in the app. Ensure moduleFileExtensions is required to include .ts and .tsx file extensions. They are prioritized to render first in Jest tests.
 

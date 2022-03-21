@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`describing MainLogo.tsx component render MainLogo.tsx test component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#656776",
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "color": "#43444e",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans_700Bold",
+          },
+          Object {
+            "textShadowOffset": Object {
+              "height": 2,
+              "width": -2,
+            },
+            "textShadowRadius": 1,
+          },
+          Object {},
+        ]
+      }
+    >
+      Vehiclegenics
+    </Text>
+  </View>
+</View>
+`;

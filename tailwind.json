@@ -1,7 +1,29 @@
 {
-	"h-full": {
+	"mt-55pix": {
 		"style": {
-			"height": "100%"
+			"marginTop": 55
+		}
+	},
+	"mt-2pix": {
+		"style": {
+			"marginTop": 2
+		}
+	},
+	"h-32": {
+		"style": {
+			"height": 128
+		}
+	},
+	"flex-1": {
+		"style": {
+			"flexGrow": 1,
+			"flexShrink": 1,
+			"flexBasis": "0%"
+		}
+	},
+	"flex-col": {
+		"style": {
+			"flexDirection": "column"
 		}
 	},
 	"items-center": {
@@ -9,51 +31,66 @@
 			"alignItems": "center"
 		}
 	},
-	"rounded-full": {
+	"justify-center": {
 		"style": {
-			"borderTopLeftRadius": 9999,
-			"borderTopRightRadius": 9999,
-			"borderBottomRightRadius": 9999,
-			"borderBottomLeftRadius": 9999
+			"justifyContent": "center"
 		}
 	},
-	"bg-blue-200": {
+	"rounded-md": {
 		"style": {
-			"--tw-bg-opacity": 1,
-			"backgroundColor": "rgb(191 219 254 / var(--tw-bg-opacity))"
+			"borderTopLeftRadius": 6,
+			"borderTopRightRadius": 6,
+			"borderBottomRightRadius": 6,
+			"borderBottomLeftRadius": 6
 		}
 	},
-	"px-3": {
+	"border-3pix": {
 		"style": {
-			"paddingLeft": 12,
-			"paddingRight": 12
+			"borderTopWidth": 3,
+			"borderRightWidth": 3,
+			"borderBottomWidth": 3,
+			"borderLeftWidth": 3
 		}
 	},
-	"py-1": {
+	"border-slate-700": {
 		"style": {
-			"paddingTop": 4,
-			"paddingBottom": 4
+			"--tw-border-opacity": 1,
+			"borderTopColor": "rgb(51 65 85 / var(--tw-border-opacity))",
+			"borderRightColor": "rgb(51 65 85 / var(--tw-border-opacity))",
+			"borderBottomColor": "rgb(51 65 85 / var(--tw-border-opacity))",
+			"borderLeftColor": "rgb(51 65 85 / var(--tw-border-opacity))"
 		}
 	},
-	"pt-6": {
+	"p-20pix": {
 		"style": {
-			"paddingTop": 24
+			"paddingTop": 20,
+			"paddingRight": 20,
+			"paddingBottom": 20,
+			"paddingLeft": 20
 		}
 	},
-	"pt-12": {
+	"p-15pix": {
 		"style": {
-			"paddingTop": 48
+			"paddingTop": 15,
+			"paddingRight": 15,
+			"paddingBottom": 15,
+			"paddingLeft": 15
 		}
 	},
-	"font-semibold": {
+	"px-10pix": {
 		"style": {
-			"fontWeight": "600"
+			"paddingLeft": 10,
+			"paddingRight": 10
 		}
 	},
-	"text-blue-800": {
+	"text-center": {
 		"style": {
-			"--tw-text-opacity": 1,
-			"color": "rgb(30 64 175 / var(--tw-text-opacity))"
+			"textAlign": "center"
+		}
+	},
+	"text-42pix": {
+		"style": {
+			"fontSize": 42
 		}
 	}
 }

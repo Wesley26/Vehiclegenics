@@ -3,14 +3,20 @@ import { Text, View } from 'react-native';
 import { globalStyles } from '../../../globalStyles';
 import { useTailwind } from 'tailwind-rn';
 
+import DetermineDevice from '../../hooks/anyHooks/DetermineDevice';
+
 /**
  * @returns MainLogo component
  */
 
 const MainLogo:FC = () => {
 
+    const deviceType: Promise<number> = DetermineDevice();
     const tailwind = useTailwind();
     const logoText: string = `Vehiclegenics`;
+
+    console.log(`The deviceType inside MainLogo.tsx is: ${(Number(deviceType))}`);
+    //todo: this returns NaN
 
     return (
 

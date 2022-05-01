@@ -11,12 +11,12 @@ import DetermineDevice from '../../hooks/anyHooks/DetermineDevice';
 
 const MainLogo:FC = () => {
 
-    const deviceType: Promise<number> = DetermineDevice();
+    const deviceType: number = DetermineDevice();
     const tailwind = useTailwind();
     const logoText: string = `Vehiclegenics`;
 
-    console.log(`The deviceType inside MainLogo.tsx is: ${(Number(deviceType))}`);
-    //todo: this returns NaN
+    console.log(`The deviceType inside MainLogo.tsx is: ${(deviceType)}`);
+    //todo: create the tailwind styles for both tablet and phone
 
     return (
 

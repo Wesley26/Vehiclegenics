@@ -1,22 +1,32 @@
-import { useState } from 'react';
+import { useContext, useEffect } from 'react';
 import * as Device from 'expo-device';
 
+import { DeviceContext } from '../contextHooks/DeviceContext';
+
 /**
- * @returns device - return the enum value
- * of the 
+ * @returns theDevice - return the enum number value
+ * of the current device, see expo-device for these
+ * enum values: UNKNOWN = 0, PHONE = 1, TABLET = 2
  */
 
-const DetermineDevice = async () => {
+const DetermineDevice = () => {
 
-    const [theDevice, setTheDevice] = useState<number>(0);
+    const { theDevice, setTheDevice } = useContext(DeviceContext);
 
-    const device = await Device.getDeviceTypeAsync();
-    console.log(`Device is determined to be: ${device}`);
-    console.log(`Type of the device variable is: ${typeof device}`);
+    useEffect(() => {
 
-    setTheDevice(Number(device));
+        const getDevice = async () => {
 
-    console.log(`theDevice is now set to: ${theDevice}`);
+            let device = await Device.getDeviceTypeAsync();
+            setTheDevice(Number(device));
+
+            return device;
+
+        };
+
+        getDevice();
+
+    }, []);
     
     return theDevice;
 
